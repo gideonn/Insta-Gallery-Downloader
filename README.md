@@ -21,12 +21,12 @@ First off, you need to login to instagram and head over to www.instagram.com/dev
 
 3) Save the access token in config.txt file as:-
 
-access_token=newly generated token
+   access_token=newly generated token
 
-for ex:
-access_token=575199251.7in678i.g23atb436f6ba0fs8gi587f6a4esdcg3
+   for ex:
+   access_token=575199251.7in678i.g23atb436f6ba0fs8gi587f6a4esdcg3
 
-We need this access token to make requests to instagram.
+   We need this access token to make requests to instagram.
 
 4) And that's it, download the executable.
 
