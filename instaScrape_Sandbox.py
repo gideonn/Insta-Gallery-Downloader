@@ -6,6 +6,7 @@ import requests
 import datetime
 import os
 import urllib
+import re
 
 '''
 Get access token
@@ -55,7 +56,8 @@ def core():
     json_length = len(json_data['data'])
 
     for itr in range(0, json_length, 1):
-            image_url = (json_data['data'][itr]['images']['standard_resolution']['url']).replace('https', 'http')
+            #image_url = (json_data['data'][itr]['images']['standard_resolution']['url']).replace('https', 'http')
+            image_url = re.sub(r"\/s[0-9][0-9][0-9][a-z][0-9][0-9][0-9]",'',(json_data['data'][itr]['images']['standard_resolution']['url']).replace('https', 'http'))
             image_id = (json_data['data'][itr]['id']).split('_')[0]
             print(image_url)
             #print(image_id)
@@ -92,7 +94,8 @@ def core():
         #print('Time of run: ' + str(datetime.datetime.now()))
         #print('Started downloading...hold tight!')
         for itr in range(0, json_length, 1):
-            image_url = (json_data['data'][itr]['images']['standard_resolution']['url']).replace('https', 'http')
+            #image_url = (json_data['data'][itr]['images']['standard_resolution']['url']).replace('https', 'http')
+            image_url = re.sub(r"\/s[0-9][0-9][0-9][a-z][0-9][0-9][0-9]",'',(json_data['data'][itr]['images']['standard_resolution']['url']).replace('https', 'http'))
             image_id = (json_data['data'][itr]['id']).split('_')[0]
             print(image_url)
             #print(image_id)
