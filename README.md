@@ -32,6 +32,7 @@ First off, you need to login to instagram and head over to www.instagram.com/dev
 
 5) Place config.txt in the same folder as executable
 
-6) Run the script, sit back and let the script do its work.
+6) Run the script, sit back, grab a beer, and let the script do its work.
 
 All images of your feed will be present in Gallery folder created in the same directory.
+Enjoy! :)
