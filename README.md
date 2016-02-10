@@ -2,7 +2,7 @@
 
 I have always wanted a way to download all my images from instagram gallery to share/show it to others.
 
-For some reason, Instagram has never allowed you to download images, even though you are the owner.
+For some reason, Instagram has never allowed you to download images, even if you are the owner.
 Yes, there's a feature that the image is downloaded when you upload, but what if you are on a different device ?
 What if you never turned on the feature ?
 
