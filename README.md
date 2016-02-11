@@ -9,9 +9,7 @@ What if you never turned on the feature ?
 There's no way to bulk download your images.
 
 Presenting Instagram Gallery Downloader!
-This is a bot to download all your instagram gallery pictures in a single folder. Simple as that. No strings attached.
-
-Hopefully, you'll get more followers, increasing viewers of your feed. Keep reading to know how to get it up and going.
+This is a bot/script to download all your instagram gallery pictures in a single folder. Simple as that. No strings attached.
 
 First off, you need to login to instagram and head over to www.instagram.com/developer 
 
