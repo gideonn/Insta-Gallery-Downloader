@@ -1,5 +1,9 @@
 # Insta-Gallery-Downloader
 
+###
+Edit - June 20, 2016: If the script/exe isn't working for you after 1st June, just get a new token and things should work just fine.
+###
+
 I have always wanted a way to download all my images from instagram gallery to share/show it to others.
 
 For some reason, Instagram has never allowed you to download images, even if you are the owner.
@@ -16,6 +20,8 @@ First off, you need to login to instagram and head over to www.instagram.com/dev
 1) Read simple instructions here -> http://www.slickremix.com/docs/how-to-create-instagram-access-token/
    In addition to that, click on "Edit" after you've saved a client. Goto security, and untick "Disable implicit OAuth".
    We are doing that because we are going to implicitly call the APIs (without providing password everytime)
+   Copy paste this URL in your browser :
+   https://instagram.com/oauth/authorize/?client_id=[CLIENT_ID_HERE]&redirect_uri=http://localhost&response_type=token&scope=basic+likes+comments+relationships
 
 2) Watch the 2 min video, if step#1 is not clear -> https://www.youtube.com/watch?v=LkuJtIcXR68
 
